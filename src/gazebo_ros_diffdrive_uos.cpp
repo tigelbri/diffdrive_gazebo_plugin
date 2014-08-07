@@ -16,7 +16,7 @@ GazeboRosDiffdrive::GazeboRosDiffdrive() :
   
   joints_.resize(0);
 
-  for (size_t i = 0; i < num_joints_; ++i)
+  for (size_t i = 0; i < joints_.size(); ++i)
   {
     joints_[i].reset();
   }
